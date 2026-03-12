@@ -12,58 +12,117 @@ interface Category {
 
 const categories: Category[] = [
   {
-    id: 'business', icon: Building2, label: 'For Founders & SMEs', tag: 'Revenue Foundation', tagColor: 'bg-brand-800 text-gold-300',
-    headline: 'HR Consulting Services', subhead: 'High-trust, problem-solving services companies actively pay for.',
+    id: 'career',
+    icon: GraduationCap,
+    label: 'Career Services',
+    tag: 'Career Advisory',
+    tagColor: 'bg-emerald-50 text-emerald-700',
+    headline: 'Career Launch & Advisory',
+    subhead: 'For freshers, career-gap returners, transitioners, and experienced professionals.',
     services: [
-      { name: 'Payroll & Compliance Management', desc: 'Monthly payroll processing, statutory compliance, PF/ESI guidance, and labour law alignment.', price: '₹8,000', priceNote: '/ month', features: ['Monthly payroll processing', 'PF & ESI filing guidance', 'Statutory compliance audit', 'Labour law alignment', 'Documentation review'], cta: 'Get Payroll Support' },
-      { name: 'HR Policy & Process Setup', desc: 'Leave policies, attendance frameworks, performance reviews, and onboarding/offboarding SOPs.', price: '₹15,000', priceNote: 'one-time', highlight: true, features: ['Leave & attendance policy', 'Performance review framework', 'Onboarding SOP', 'Offboarding checklist', 'Employee handbook outline'], cta: 'Build Your HR System' },
-      { name: 'Virtual HR / Fractional HR Partner', desc: 'Ongoing HR support for startups or SMEs without an in-house HR team.', price: '₹12,000', priceNote: '/ month', features: ['Dedicated HR contact', 'HR queries within 24hrs', 'Policy updates & drafting', 'Hiring advisory', 'Monthly HR health check'], cta: 'Hire a Fractional HR' },
+      {
+        name: 'Fresher Career Launch',
+        desc: 'Resume & profile structuring, interview readiness, and workplace expectations coaching for first-time job seekers.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        features: ['Resume structuring from scratch', 'LinkedIn profile setup', 'Interview readiness session', 'Workplace expectations guide', 'Email & follow-up etiquette'],
+        cta: 'Launch Your Career',
+      },
+      {
+        name: 'Career Restart Consulting',
+        desc: 'For professionals returning after a career gap. Resume rebuilding, confidence coaching, and job market positioning.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        highlight: true,
+        features: ['Gap narrative strategy', 'Resume rebuild', 'Confidence & interview coaching', 'Market positioning advice', '2 mock interview rounds'],
+        cta: 'Restart Your Career',
+      },
+      {
+        name: 'Career Transition Guidance',
+        desc: 'Skill mapping, resume realignment, and transition strategy for professionals changing roles or industries.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        features: ['Skill gap mapping', 'Resume realignment', 'Target industry research', 'Transition roadmap', 'Networking strategy'],
+        cta: 'Plan Your Transition',
+      },
+      {
+        name: 'Experienced Professional Advisory',
+        desc: 'Career growth planning, workplace navigation coaching, and communication strategy for mid-to-senior professionals.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        features: ['Career growth roadmap', 'Workplace politics navigation', 'Leadership communication', 'Promotion strategy', '3 coaching sessions'],
+        cta: 'Grow Your Career',
+      },
     ],
+  },
+    {
+    id: 'interview',
+    icon: Users2,
+    label: 'Interview Prep',
+    tag: 'HR Insider Edge',
+    tagColor: 'bg-rose-50 text-rose-700',
+    headline: 'HR Insider Interview Prep',
+    subhead: 'Coached by someone who has actually conducted hundreds of HR interviews.',
+    services: [
+      {
+        name: 'HR Interview Prep Package',
+        desc: 'Mock interviews, HR perspective coaching, and salary & negotiation guidance from an actual HR professional.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        highlight: true,
+        features: ['2 mock interview sessions', 'HR perspective debrief', 'Common HR question bank', 'STAR method coaching', 'Salary negotiation tactics', 'Offer evaluation guidance'],
+        cta: 'Prep with an HR Insider',
+      },
+      {
+        name: 'Resume & LinkedIn Optimisation',
+        desc: 'Resume review and LinkedIn overhaul backed by what HR actually looks for — not just keywords.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        features: ['ATS-focused resume review', 'LinkedIn headline & summary', 'Keyword strategy', 'Skills section audit', '1 revision round'],
+        cta: 'Optimise Profile',
+      },
+    ],
+  },
+
+  {
+    id: 'training',
+    icon: BookOpen,
+    label: 'Training & Workshops',
+    tag: 'Authority Builder',
+    tagColor: 'bg-gold-100 text-gold-700',
+    headline: 'Knowledge & Training Services',
+    subhead: 'For small business owners, founders, managers, and junior HR professionals.',
+    services: [
+       {
+        name: 'Workplace Etiquette & Communication',
+        desc: 'Corporate behaviour, internal communication, and leadership basics — for teams and individual contributors.',
+        price: 'Contact for Pricing',
+        priceNote: '',
+        highlight: true,
+        features: ['Professional communication', 'Email & meeting etiquette', 'Conflict handling basics', 'Leadership presence', 'Group exercises included'],
+        cta: 'Book Training',
+      },
+      ],
   },
   {
-    id: 'training', icon: BookOpen, label: 'Training & Workshops', tag: 'Authority Builder', tagColor: 'bg-gold-100 text-gold-700',
-    headline: 'Knowledge & Training Services', subhead: 'For founders, managers, and junior HR professionals.',
+    id: 'podcast',
+    icon: Mic,
+    label: 'Podcast Services',
+    tag: 'Brand Leverage',
+    tagColor: 'bg-slate-100 text-slate-700',
+    headline: 'Podcast-Driven Services',
+    subhead: 'Use the podcast as a gateway to paid, high-value consulting sessions.',
     services: [
-      { name: 'HR Compliance Workshop', desc: 'A focused session covering everything you need to stay legally compliant.', price: '₹3,500', priceNote: '/ session', features: ['PF, ESI, PT overview', 'Labour law basics', 'Common compliance traps', 'Q&A with HR expert', 'Resource toolkit'], cta: 'Book Workshop' },
-      { name: 'Workplace Etiquette & Communication', desc: 'Corporate behaviour, internal communication, and leadership basics for teams.', price: '₹5,000', priceNote: '/ session', highlight: true, features: ['Professional communication', 'Email & meeting etiquette', 'Conflict handling basics', 'Leadership presence', 'Group exercises'], cta: 'Book Training' },
-      { name: 'Payroll & HR Basics Training', desc: 'For junior HR professionals who need a solid foundation in HR operations.', price: '₹4,500', priceNote: '/ person', features: ['Payroll processing walkthrough', 'Statutory deductions explained', 'HRMS tools overview', 'Common mistakes & fixes', 'Certificate included'], cta: 'Enrol Now' },
+      {
+        name: 'Workplace Problem Clinic',
+        desc: 'Submit your anonymous HR challenge ',
+        price: '',
+        priceNote: '',
+        features: ['Anonymous submission option', 'Featured on podcast episode', 'Private written response', 'Practical action plan', 'Peer learning value'],
+        cta: 'Submit Your Problem',
+      },
     ],
-  },
-  {
-    id: 'podcast', icon: Mic, label: 'Podcast Services', tag: 'Brand Leverage', tagColor: 'bg-slate-100 text-slate-700',
-    headline: 'Podcast-Driven Services', subhead: 'Use the podcast as a gateway to paid, high-value consulting sessions.',
-    services: [
-      { name: 'Founder HR Strategy Session', desc: 'Book a paid 1:1 strategy call to discuss your specific HR challenges with the host.', price: '₹2,500', priceNote: '/ 60 min', highlight: true, features: ['1-on-1 with podcast host', 'Your specific HR scenario', 'Actionable next steps', 'Follow-up resource list', 'Recording available'], cta: 'Book Strategy Call' },
-      { name: 'Workplace Problem Clinic', desc: 'Submit your anonymous HR challenge — real advice delivered via podcast + private written consultation.', price: '₹1,500', priceNote: '/ submission', features: ['Anonymous submission option', 'Featured on podcast episode', 'Private written response', 'Practical action plan', 'Peer learning value'], cta: 'Submit Your Problem' },
-    ],
-  },
-  {
-    id: 'digital', icon: Laptop, label: 'Digital & Scalable', tag: 'Future Growth', tagColor: 'bg-blue-50 text-blue-700',
-    headline: 'Digital Offerings & Templates', subhead: 'Scalable products for self-starters who prefer to DIY.',
-    services: [
-      { name: 'HR Templates & Toolkits', desc: 'Ready-to-use policies, onboarding checklists, payroll sheets, and appraisal formats.', price: '₹999', priceNote: 'per toolkit', features: ['Offer letter templates', 'Onboarding checklist', 'Payroll input sheet', 'Leave policy template', 'Appraisal form'], cta: 'Buy Toolkit' },
-      { name: 'Mini Courses', desc: '"HR Setup for Startups", "Compliance Simplified" — self-paced with real examples.', price: '₹1,499', priceNote: 'per course', highlight: true, features: ['Self-paced video modules', 'Downloadable workbooks', 'Real case studies', 'Certificate on completion', 'Lifetime access'], cta: 'Browse Courses' },
-    ],
-  },
-  {
-    id: 'career', icon: GraduationCap, label: 'Career Services', tag: 'Career Advisory', tagColor: 'bg-emerald-50 text-emerald-700',
-    headline: 'Career Launch & Advisory', subhead: 'For freshers, career-gap returners, transitioners, and experienced professionals.',
-    services: [
-      { name: 'Fresher Career Launch', desc: 'Resume structuring, interview readiness, and workplace expectations coaching.', price: '₹2,000', priceNote: 'package', features: ['Resume structuring from scratch', 'LinkedIn profile setup', 'Interview readiness session', 'Workplace expectations guide', 'Email & follow-up etiquette'], cta: 'Launch Your Career' },
-      { name: 'Career Restart Consulting', desc: 'Resume rebuilding, confidence coaching, and job market positioning after a gap.', price: '₹3,500', priceNote: 'package', highlight: true, features: ['Gap narrative strategy', 'Resume rebuild', 'Confidence & interview coaching', 'Market positioning advice', '2 mock interview rounds'], cta: 'Restart Your Career' },
-      { name: 'Career Transition Guidance', desc: 'Skill mapping, resume realignment, and transition strategy for role/industry changes.', price: '₹3,000', priceNote: 'package', features: ['Skill gap mapping', 'Resume realignment', 'Target industry research', 'Transition roadmap', 'Networking strategy'], cta: 'Plan Your Transition' },
-      { name: 'Experienced Professional Advisory', desc: 'Career growth planning, workplace navigation, and communication strategy.', price: '₹4,000', priceNote: 'package', features: ['Career growth roadmap', 'Workplace politics navigation', 'Leadership communication', 'Promotion strategy', '3 coaching sessions'], cta: 'Grow Your Career' },
-    ],
-  },
-  {
-    id: 'interview', icon: Users2, label: 'Interview Prep', tag: 'HR Insider Edge', tagColor: 'bg-rose-50 text-rose-700',
-    headline: 'HR Insider Interview Prep', subhead: 'Coached by someone who has conducted hundreds of HR interviews.',
-    services: [
-      { name: 'HR Interview Prep Package', desc: 'Mock interviews, HR perspective coaching, and salary negotiation guidance.', price: '₹2,500', priceNote: 'package', highlight: true, features: ['2 mock interview sessions', 'HR perspective debrief', 'Common HR question bank', 'STAR method coaching', 'Salary negotiation tactics', 'Offer evaluation guidance'], cta: 'Prep with an HR Insider' },
-      { name: 'Resume & LinkedIn Optimisation', desc: 'Resume review and LinkedIn overhaul backed by what HR actually looks for.', price: '₹1,800', priceNote: 'package', features: ['ATS-focused resume review', 'LinkedIn headline & summary', 'Keyword strategy', 'Skills section audit', '1 revision round'], cta: 'Optimise Profile' },
-    ],
-  },
-]
+  },]
 
 function ServiceCard({ s }: { s: Service }) {
   return (
@@ -152,7 +211,7 @@ export default function ServicesPage() {
           <h2 className="heading-lg text-white mb-4">Not Sure Which Service You Need?</h2>
           <p className="text-white/70 mb-8 text-lg">Book a free 20-minute discovery call and we'll point you in the right direction.</p>
           <Link href="/contact" className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-gold-gradient text-brand-900 font-semibold shadow-xl hover:opacity-90">
-            Book Free Discovery Call <ArrowRight className="h-5 w-5" />
+            Book a Call <ArrowRight className="h-5 w-5" />
           </Link>
         </div>
       </section>

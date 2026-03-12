@@ -220,7 +220,7 @@ export default function PodcastPage() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-brand-gradient rounded-2xl p-10 text-white relative overflow-hidden">
+            {/* <div className="bg-brand-gradient rounded-2xl p-10 text-white relative overflow-hidden">
               <div className="absolute inset-0 bg-hero-pattern opacity-20" />
               <div className="relative z-10">
                 <div className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center mb-5">
@@ -243,19 +243,19 @@ export default function PodcastPage() {
                   Book Session <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             <div className="bg-background rounded-2xl p-10 border border-border">
               <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center mb-5">
                 <Mic className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="text-2xl font-bold mb-3">Workplace Problem Clinic</h3>
+              <h3 className="text-2xl font-bold mb-3">You are welcome on our Podcast</h3>
               <p className="text-muted-foreground leading-relaxed mb-6 text-sm">
-                Submit your anonymous HR challenge. Get featured on the podcast and receive a private written consultation with real advice.
+               you’re a founder, leader, or professional with real experiences and insights to share, we’d love to hear from you. If you’re interested in being a guest on the Founders Unfiltered9 podcast, feel free to connect with us. We’re always looking to have honest conversations with people who have meaningful stories, lessons, and perspectives that can inspire and help others in their journey.
               </p>
               <div className="p-4 bg-white rounded-xl border border-border mb-6">
                 <div className="text-xs font-semibold text-muted-foreground mb-1">Per submission</div>
-                <div className="text-3xl font-bold text-foreground">₹1,500</div>
+                <div className="text-3xl font-bold text-foreground">Contact for Price </div>
               </div>
               <Link href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-blue-700 text-blue-800 font-semibold text-sm hover:bg-blue-700 hover:text-white transition-all"
