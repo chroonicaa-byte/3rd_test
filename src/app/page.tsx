@@ -139,7 +139,7 @@ export default function HomePage() {
       </section>
 
       {/* ── WHY US ── */}
-      <section className="section-pad bg-white">
+      {/* <section className="section-pad bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-blue-600 text-sm font-semibold tracking-widest uppercase mb-3">Why FounderUnfiltered9</p>
@@ -160,7 +160,44 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+<section className="py-16 px-4 max-w-4xl mx-auto">
+  {/* The Heading */}
+  <h2 className="text-sm font-bold tracking-widest uppercase text-gray-500 mb-2">
+    Why Founders Unfiltered9
+  </h2>
+  
+  {/* The Main Paragraph */}
+  <p className="text-xl leading-relaxed text-gray-800 mb-10">
+    We engage with founders, business leaders, and experienced professionals to explore the real side of entrepreneurship — team building, compliance challenges, leadership decisions, hiring mistakes, career transitions, and growth strategies. These conversations are practical, honest, and focused on execution — <span className="italic font-semibold">not theory.</span>
+  </p>
+
+  {/* The Mission Section */}
+  <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+    <h3 className="text-2xl font-bold mb-6">My mission is clear:</h3>
+    <ul className="space-y-4">
+      <li className="flex items-start">
+        <span className="text-blue-600 mr-3">✔</span>
+        <p>Help founders build strong, compliant, high-performing teams.</p>
+      </li>
+      <li className="flex items-start">
+        <span className="text-blue-600 mr-3">✔</span>
+        <p>Help professionals navigate career growth with clarity and strategic direction.</p>
+      </li>
+      <li className="flex items-start">
+        <span className="text-blue-600 mr-3">✔</span>
+        <p>Bridge the gap between HR systems and real business realities.</p>
+      </li>
+    </ul>
+  </div>
+
+  {/* The Closing Statement */}
+  <p className="mt-10 text-lg font-medium text-center text-gray-700">
+    This platform is not about generic advice. <br />
+    <span className="text-blue-600">It is about structure, insight, and practical understanding.</span>
+  </p>
+</section>
+      
 
       {/* ── TESTIMONIALS ── */}
       <section className="section-pad bg-background">
