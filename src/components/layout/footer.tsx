@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mic, Mail, Linkedin, Twitter, ArrowRight } from 'lucide-react'
+import { Mic, Mail, Linkedin, Twitter, ArrowRight,Instagram ,Facebook} from 'lucide-react'
 import Image from "next/image"
 
 export function Footer() {
@@ -27,9 +27,10 @@ export function Footer() {
             <div className="flex items-center gap-3 mt-6">
               {[
                 { icon: Linkedin, href: 'https://linkedin.com' },
-                { icon: Twitter, href: 'https://twitter.com' },
+                { icon: Instagram, href: 'https://www.instagram.com/foundersunfiltered9?igsh=MXh4eDJoYXZkcDZy' },
                 { icon: Mail, href: 'mailto:hello@founderunfiltered9.com' },
                 { icon: Mic, href: '/podcast' },
+                { icon: Facebook, href: 'https://www.facebook.com/share/1Dft3Sg6oi/?mibextid=wwXIfr' },
               ].map(({ icon: Icon, href }) => (
                 <a key={href} href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer"
                   className="w-9 h-9 rounded-lg bg-white/10 hover:bg-gold-500/30 flex items-center justify-center transition-colors">
