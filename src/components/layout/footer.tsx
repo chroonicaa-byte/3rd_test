@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mic, Mail, Linkedin, Twitter, ArrowRight,Instagram ,Facebook} from 'lucide-react'
+import { Mic, Mail, Linkedin, Twitter, ArrowRight,Instagram ,Facebook,Youtube} from 'lucide-react'
 import Image from "next/image"
 
 export function Footer() {
@@ -28,7 +28,7 @@ export function Footer() {
               {[
                 { icon: Linkedin, href: 'https://linkedin.com' },
                 { icon: Instagram, href: 'https://www.instagram.com/foundersunfiltered9?igsh=MXh4eDJoYXZkcDZy' },
-                { icon: Mail, href: 'mailto:hello@founderunfiltered9.com' },
+                { icon: Youtube, href: 'https://youtube.com/@foundersunfiltered9?si=lp_2JOPmeJqwP254' },
                 { icon: Mic, href: '/podcast' },
                 { icon: Facebook, href: 'https://www.facebook.com/share/1Dft3Sg6oi/?mibextid=wwXIfr' },
               ].map(({ icon: Icon, href }) => (
