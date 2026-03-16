@@ -171,10 +171,10 @@ export default function HomePage() {
 </h2>
   
   {/* The Main Paragraph */}
-  <p className="text-xl leading-relaxed text-gray-800 mb-10">
+  {/* <p className="text-xl leading-relaxed text-gray-800 mb-10">
     We engage with founders, business leaders, and experienced professionals to explore the real side of entrepreneurship — team building, compliance challenges, leadership decisions, hiring mistakes, career transitions, and growth strategies. These conversations are practical, honest, and focused on execution — <span className="italic font-semibold">not theory.</span>
-  </p>
-
+  </p> */}
+<h2 className="heading-xl mb-4">We engage with founders, business leaders, and experienced professionals to explore the real side of entrepreneurship — team building, compliance challenges, leadership decisions, hiring mistakes, career transitions, and growth strategies. These conversations are practical, honest, and focused on execution</h2>
   {/* The Mission Section */}
   <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
     <h3 className="text-2xl font-bold mb-6">My mission is clear:</h3>
