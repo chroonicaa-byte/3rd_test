@@ -43,7 +43,7 @@ export function Footer() {
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-widest text-gold-400 mb-4">Services</h4>
             <ul className="space-y-2.5">
-              {['Payroll & Compliance', 'HR Policy Setup', 'Virtual HR Partner', 'Career Advisory', 'Interview Prep', 'HR Training'].map((s) => (
+              {['Career Advisory', 'Interview Prep', 'HR Training'].map((s) => (
                 <li key={s}>
                   <Link href="/services" className="text-white/65 hover:text-gold-300 text-sm transition-colors flex items-center gap-1 group">
                     <ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 -ml-3 group-hover:ml-0 transition-all" />
