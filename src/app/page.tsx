@@ -163,9 +163,12 @@ export default function HomePage() {
       </section> */}
 <section className="py-16 px-4 max-w-4xl mx-auto">
   {/* The Heading */}
-  <h2 className="text-sm font-bold tracking-widest uppercase text-gray-500 mb-2">
+  {/* <h2 className="text-sm font-bold tracking-widest uppercase text-gray-500 mb-2">
     Why Founders Unfiltered9
-  </h2>
+  </h2> */}
+  <h2 className="text-lg font-extrabold tracking-widest uppercase text-gray-500 mb-2">
+  Why Founders Unfiltered
+</h2>
   
   {/* The Main Paragraph */}
   <p className="text-xl leading-relaxed text-gray-800 mb-10">
