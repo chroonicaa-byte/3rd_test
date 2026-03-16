@@ -190,7 +190,7 @@ export default function HomePage() {
       </li>
       <li className="flex items-start">
         <span className="text-blue-600 mr-3">✔</span>
-        <p>Bridge the gap between HR systems and real business realities.</p>
+        <p>Bridge the gap between Human Resource systems and real business realities.</p>
       </li>
     </ul>
   </div>
